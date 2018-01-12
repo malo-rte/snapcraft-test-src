@@ -1,0 +1,51 @@
+{
+  "variant": {
+    "label": "Release",
+    "keywordSettings": {
+      "buildType": "release"
+    },
+    "description": "Enable optimizations, omit debug info"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Release",
+        "projects": [
+          {
+            "buildDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src/build",
+            "name": "snapcraft-test-src",
+            "sourceDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/malo/work/ubuntu-core/snapcraft-test-src/build/snapcraft-test-src"
+                ],
+                "buildDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src/build",
+                "fileGroups": [
+                  {
+                    "compileFlags": "-O3 -DNDEBUG   -std=gnu++1z",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "snapcraft-test-src",
+                "linkLanguageFlags": "-O3 -DNDEBUG",
+                "linkerLanguage": "CXX",
+                "name": "snapcraft-test-src",
+                "sourceDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src",
+                "type": "EXECUTABLE"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.657545416769862",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}

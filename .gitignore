@@ -1,3 +1,5 @@
+build/**
+
 # Prerequisites
 *.d
 
@@ -20,7 +22,7 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compileadd_executable(${PROJECT_NAME} src/main.cpp src/language_tokens.cppd Static libraries
 *.lai
 *.la
 *.a
