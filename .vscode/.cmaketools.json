@@ -14,12 +14,12 @@
         "projects": [
           {
             "buildDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src/build",
-            "name": "snapcraft-test-src",
+            "name": "snap-test-exec",
             "sourceDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src",
             "targets": [
               {
                 "artifacts": [
-                  "/home/malo/work/ubuntu-core/snapcraft-test-src/build/snapcraft-test-src"
+                  "/home/malo/work/ubuntu-core/snapcraft-test-src/build/snap-test-exec"
                 ],
                 "buildDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src/build",
                 "fileGroups": [
@@ -32,10 +32,10 @@
                     ]
                   }
                 ],
-                "fullName": "snapcraft-test-src",
+                "fullName": "snap-test-exec",
                 "linkLanguageFlags": "-O3 -DNDEBUG",
                 "linkerLanguage": "CXX",
-                "name": "snapcraft-test-src",
+                "name": "snap-test-exec",
                 "sourceDirectory": "/home/malo/work/ubuntu-core/snapcraft-test-src",
                 "type": "EXECUTABLE"
               }
@@ -44,7 +44,7 @@
         ]
       }
     ],
-    "cookie": "0.38641909756577264",
+    "cookie": "0.08202495525640519",
     "inReplyTo": "codemodel",
     "type": "reply"
   }
